@@ -8,7 +8,7 @@ public class Util {
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/kataschema";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "1234";
-    private static Connection connection;
+    private static final Connection connection;
 
     static {
         try {
